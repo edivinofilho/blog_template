@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&family=Poppins:wght@600&family=Roboto:wght@100;300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color:#F3F4F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 250px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+} 
+
+.flexBox {
+    width: 85%;
+    height: 95vh;
+    margin:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;    
+}
+
+.mainContent {
+    width: 655px;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.articleContainer {
+    width: 48%;
+    height: 48%;
+    margin: 6px;
+}
+
+.mainContentImg {
+    width:100%;
+    height: 175px;
+    border-radius: 8px;
+}
+
+.articlesTitle {
+    font-family: 'Inter', sans-serif;
+    margin-top: 1px;
+    font-weight: 800;
+    color: #0D0D0E;
+}
+
+.articleText {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #343A40;
+}
+
+.tagContainer {
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+.tags {
+    margin-right: 2px;
+    padding:5px;
+    background-color:#ede9e9;
+    border-radius: 4px;
+    color:#343A40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideContent {
+    width: 320px;
+    height: 98%;
+    font-family: 'Inter', sans-serif;
+}
+
+.sidePostsContainer {
+    width:100%;
+    height: 42%;
+}
+
+.sideTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 1px;
+}
+
+.sideArticleContainer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.imgSideBar {
+    width: 70px;
+    height: 58px;
+    border-radius: 8px;
+    margin-right: 14px;
+
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #0D0D0E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxWidthContainer {
+    width: 80%;
+    height: 55px;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomLogo {
+    width: 200px;
+    height: 50px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.bottomLinks {
+    width: 200px;
+    height: 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLink {
+    width: 25px;
+    height: 25px;
+}
