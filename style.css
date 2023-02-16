@@ -7,11 +7,8 @@ body {
 
 .container {
     width: 100%;
-    height: 100vh; /*Problema com a medida. Em % a página fica com o footer muito alto. Com vh quebra ao diminuir*/
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
 }
 
 header {
@@ -36,12 +33,10 @@ header {
 
 .mainArticlesContainer {
     width: 98%;
-    height: 80%; /*Tentativa de alterar para porcentagem, mas não funcionou*/
     display: flex;
-    justify-content: space-between;
-    align-items: center;   
+    justify-content: space-between;   
     max-width: 1050px;
-    flex-wrap: wrap;    
+    margin: 30px auto;    
 }
 
 .mainContent {
@@ -56,7 +51,7 @@ header {
 .articleContainer {
     width: 48%;
     height: 48%;
-    margin: 0 6px;
+    margin: 20px 6px;
 }
 
 .mainContentImg {
@@ -70,6 +65,10 @@ header {
     margin-top: 1px;
     font-weight: 800;
     color: #0D0D0E;
+}
+
+.articlesTitle:hover {
+    text-decoration: underline;
 }
 
 .articleText {
@@ -105,6 +104,7 @@ header {
 .sidePostsContainer {
     width:100%;
     height: 42%;
+    margin-top: 20px;
 }
 
 .sideTitle {
